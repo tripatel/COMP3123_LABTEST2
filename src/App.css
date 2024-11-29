@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Body and general layout */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Search bar styles */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather display styles */
+.weather-container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  background-attachment: fixed; /* Make sure the background doesn't scroll with the page */
+}
+
+/* Container for weather info */
+.weather-info {
+  background: rgba(0, 0, 0, 0.5); /* Dark background to improve text visibility */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Weather heading */
+.weather-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.weather-info .temp {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.weather-info .details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.weather-info img {
+  width: 100px;
+  margin-top: 15px;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.weather-info .details p {
+  font-size: 1.1rem;
+}
